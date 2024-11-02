@@ -7,6 +7,7 @@ import connectToMongoDB from './db/connectToMongoDB.js';
 import protectRoute from './middlewares/protectRoute.js';
 import userRouter from './routes/user.routes.js';
 import { app, server } from './socket/socket.js';
+//Comment
 import path from 'path';
 dotenv.config();
 app.use(cookieParser());
